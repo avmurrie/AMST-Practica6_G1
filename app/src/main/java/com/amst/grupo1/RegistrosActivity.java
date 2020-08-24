@@ -69,7 +69,7 @@ public class RegistrosActivity extends AppCompatActivity {
     }
 
     public void solicitarTemperaturas(){
-        String url_registros = "https://amstdb.herokuapp.com/db/logTres";
+        String url_registros = "https://practica-de-laboratorio-6.firebaseio.com/Registros.json";
         JsonArrayRequest requestRegistros =
                 new JsonArrayRequest( Request.Method.GET,
                         url_registros, null,
